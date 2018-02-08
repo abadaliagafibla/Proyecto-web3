@@ -1,15 +1,16 @@
+<ul>
 <h1>
-David Abad
+<li>David Abad</li>
 <br>
-Aleix Aliaga
+<li>Aleix Aliaga</li>
 <br>
-Bernat Fibla
+<li>Bernat Fibla</li>
 <br>
-Jan Nafta
+<li>Jan Nafta</li>
 <br>
-Vittorio 
+<li>Vittorio </li>
 </h1> 
-
+</ul>
 <h2 style="text-align: center">Descripció APP</h2>
 La nostre app té com objectiu oferir al usuari el millor l'ús de hashtags a l'hora de penjar una foto a Instagram.
 <img src="imagenes/1.png" alt="piscina" width="100%">
