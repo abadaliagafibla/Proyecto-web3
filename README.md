@@ -1,6 +1,11 @@
-David Abad 
+<h1>
+David Abad
+<br>
 Aleix Aliaga
+<br>
 Bernat Fibla
+<br>
 Jan Nafta
-
-Bondia
+<br>
+</h1> 
+Vittorio jefe
