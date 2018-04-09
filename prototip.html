@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<body>
+
+<h2>Hashtagit - Prototip</h2>
+
+Aquest prototip agafa una cadena de strings en format JSON de manera local i ho passeja de tal manera que es reprodueix en pantalla, a mes s'afegeix "#" per indicar que realment es un hashtag i no un string qualsevol.
+
+<p id="prototip"></p>
+
+<script>
+
+var obj = JSON.parse('{ "hashtag1":"justinlove", "hashtag2":"likeapp", "hashtag3":"goodmorning", "hashtag4":"thanks", "hashtag5":"alps", "hashtag6":"alpalco", "hashtag7":"benmut", "hashtag8":"vayatronch", "hashtag9":"r3laxarrupa", "hashtag10":"truestory"}');
+document.getElementById("prototip").innerHTML = "#" + obj.hashtag1 + " " + "#" + obj.hashtag2 + " " + "#" + obj.hashtag3+ " " + "#" + obj.hashtag4+ " " + "#" + obj.hashtag5+ " " + "#" + obj.hashtag6 + " " + "#" + obj.hashtag7+ " " + "#" + obj.hashtag8  + " " + "#" + obj.hashtag9 + " " + "#" + obj.hashtag10;
+</script>
+
+</body>
+</html>
